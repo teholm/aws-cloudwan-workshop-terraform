@@ -10,8 +10,8 @@ This repository shows you an example of global communication with AWS Cloud WAN,
 
 Choices which region you want to deploy it to. **This version will completely build out the entire infrastructure without having to remove the # from the original repo.**
 * [Terraform](./terraform/) - Original
-* [Terraform](./terraform-ohio-oregon/) 
-* [Terraform](./terraform-stockholm-oregon/)
+* [Terraform](./terraform-ohio-oregon/) - Deploys to Ohio and Oregon
+* [Terraform](./terraform-stockholm-oregon/) - Deploys to Stockholm and Oregon
 
 **NOTE**: The resources created incur costs in your AWS Account. Consider deleting the resources created once your tests are done. For more information, check the [AWS Cloud WAN pricing](https://aws.amazon.com/cloud-wan/pricing/).
 
